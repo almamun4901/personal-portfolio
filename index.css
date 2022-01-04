@@ -1,0 +1,40 @@
+body{
+    background-color: #EAE5E5;
+}
+.first{
+    display: flex;
+    float: left;
+}
+.identity{
+    width: 50%;
+}
+.identity h1{
+    font-size: 70px;
+}
+.identity h5{
+    font-family: 'Courier New', Courier, monospace;
+}
+.identity img{
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding-right: 20px;
+}
+#intro{
+    background-image: linear-gradient(lightblue, pink);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+footer{
+    width: 100%;
+    background-color: #E83556;
+    display: flex;
+    float: left;
+}
+.socialmedia{
+    padding: 50px;
+    width: 33.33%;
+}
+#logo{
+    padding-left: 5px;
+}
