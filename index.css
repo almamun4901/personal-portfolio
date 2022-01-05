@@ -1,12 +1,34 @@
 body{
     background-color: #EAE5E5;
 }
+.mainbody{
+    height: 100%;
+    width: 65%;
+    margin: 0 auto;
+}
+.header a{
+    font-size: 50px;
+    text-decoration: none;
+}
 .first{
     display: flex;
     float: left;
 }
 .identity{
-    width: 50%;
+    width: 80%;
+}
+.identity a{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+    
 }
 .identity h1{
     font-size: 70px;
@@ -19,11 +41,26 @@ body{
     height: 300px;
     float: right;
     padding-right: 20px;
+    margin-top: 30px;
 }
 #intro{
     background-image: linear-gradient(lightblue, pink);
     padding-top: 10px;
     padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    width: auto;
+
+}
+#resume{
+    background-color: #E83556;
+}
+#work{
+    background-color: #61D0D4;
+}
+#skill{
+    background-color: #D1C926;
 }
 footer{
     width: 100%;
@@ -36,5 +73,6 @@ footer{
     width: 33.33%;
 }
 #logo{
+    text-decoration: none;
     padding-left: 5px;
 }
