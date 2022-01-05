@@ -15,17 +15,18 @@ body{
     float: left;
 }
 .identity{
-    width: 80%;
+    width: 50%;
+    height: 50%;
 }
 .identity a{
     width: 100px;
     height: 100px;
-    background-color: aliceblue;
     border-radius: 50%;
-    display: inline-block;
+    display: inline-flex;
     text-align: center;
     align-items: center;
     text-decoration: none;
+    justify-content: center;
     color: white;
     border: none;
     
@@ -41,10 +42,9 @@ body{
     height: 300px;
     float: right;
     padding-right: 20px;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 #intro{
-    background-image: linear-gradient(lightblue, pink);
     padding-top: 10px;
     padding-left: 10px;
     border-radius: 10px;
